@@ -1,6 +1,8 @@
 [user]
 	email = mings430@gmail.com
 	name = Ming Huang
+[core]
+	editor = vim
 [alias]
 	st = status
 	ignore = update-index --assume-unchanged
