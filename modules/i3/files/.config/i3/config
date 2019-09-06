@@ -83,11 +83,16 @@ bindsym $mod+e layout toggle split
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
-# change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
-
 # focus the parent container
 bindsym $mod+a focus parent
+
+
+# Launchers
+
+# start dmenu (a program launcher)
+bindsym $mod+space exec --no-startup-id "rofi -show drun"
+
+
 
 # focus the child container
 #bindsym $mod+d focus child
